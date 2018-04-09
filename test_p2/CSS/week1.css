@@ -1,0 +1,176 @@
+/* 以下重設值 */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* 以下設定值 */
+
+body{
+    width: 1080px;
+    margin:0 auto;
+    font-family: sans-serif;
+}
+
+.top{
+    background:rgb(182, 182, 182);
+    height: 100px;
+}
+
+.top h1{float: left;}
+.top h1 a{
+    background: url("../img/head.png");
+    width: 457px;
+    height: 84px;
+    display: block;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.top ul{
+    float: right;
+    margin-top: 40px;
+}
+.top li{
+    float: left;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.top a{text-decoration: none;}
+
+.main{
+    margin: 10px 0px;
+}
+.left{
+    background: orange;
+    width: 180px;
+    padding: 5px 0px;
+    float: left;
+    margin-right: 10px;
+}
+.left ul{margin-left: 5px;}
+.left li{margin: 10px 0px;}
+
+.center{
+    width: 640px;
+    float: left;
+    background-image: url(../img/bg.png);
+    background-repeat: repeat-x;
+    background-color: rgb(115,185,248);
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.center h2{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.block{
+    width: 280px;
+    height: 350px;
+    border: 2.5px rgb(106, 89, 255) solid;
+    float: left;
+    margin: 5px;
+    position: relative;
+}
+.block img{
+    padding: 5px;
+}
+.block p{
+    margin: 5px;
+    font-size: 16px;
+}
+.block h3{
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: gold;
+}
+.block a{
+    background: rgb(0, 148, 0);
+    padding: 5px 10px;
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+    padding-top: 5px;
+}
+
+.warning{
+    position: absolute;
+    left: -5px;
+    top: -5px;
+    background: rgb(106, 89, 255);
+    padding: 5px;
+    color: white;
+}
+
+.right{
+    float: left;
+    background:aqua;
+    width: 220px;
+    padding: 5px;
+}
+
+.clear{
+    clear: both;
+    margin-bottom: 10px;
+}
+.bottom{
+    background: rgb(182, 182, 182);
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.stone{
+    position: fixed;
+    right:0;
+    bottom:0;
+    background: gray;
+    color: white;
+    font-size: 30px;
+}
+
+body{
+    background: url(../img/dawea.jpg) center top fixed;
+}
