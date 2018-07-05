@@ -1,0 +1,61 @@
+body{
+    min-width: 1000px;
+    margin:0 auto;
+    font-family: 'cwTeXYen', sans-serif;
+}
+header{
+    background: #0d2c54;
+    height: 60px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    color: white;
+}
+header img{
+    width: 28px;
+}
+
+header h1{
+    text-align:center;
+    font-size:36px;
+    line-height:60px;
+}
+header h2{
+    text-align:center;
+    font-size:24px;
+    line-height:60px;
+}
+header h2 a{
+    text-decoration:none;
+    color: white;
+}
+header h2 a img{
+    width: 16px;
+}
+
+nav{
+    width: 350px;
+    margin:10px auto;
+    font-size:32px;
+    display: flex;
+    justify-content: center;
+}
+select{
+    width: 150px;
+    font-size:32px;
+    font-family: 'cwTeXYen', sans-serif;
+    border-radius:10px;
+    border:none;
+    background: #0d2c54;
+    color: white;
+}
+  
+table{
+    margin:0 auto;
+}
+th{
+    font-size:20px;
+    padding:5px 10px;
+    background: rgb(30,144,255,0.5);
+}
